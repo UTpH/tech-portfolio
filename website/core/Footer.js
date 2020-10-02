@@ -28,6 +28,9 @@ class Footer extends React.Component {
           <a href={"https://github.com/" + this.props.config.socialMedia.github} target="_blank" className="social">
             <img alt="GitHub" src={this.props.config.baseUrl + "img/github.svg"}></img>
           </a>
+          <a href={"https://scholar.google.com/citations?hl=en&authuser=1&user=U406jj0AAAAJ"} target="_blank" className="social">
+            <img alt="Google Scholar" src={this.props.config.baseUrl + "img/google-scholar.png"}></img>
+          </a>
         </section>
         <section className="copyright">{this.props.config.copyright}. Created with Docusaurus.</section>
       </footer>
